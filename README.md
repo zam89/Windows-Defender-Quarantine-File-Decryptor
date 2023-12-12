@@ -1,6 +1,6 @@
 Windows Defender Quarantine File Decryptor
 ===
-This tool is use to decrypt file that been quarantined by Windows Defender. It also contains some Python code; as part of my blog - https://blog.khairulazam.net/2023/12/12/extracting-quarantine-files-from-windows-defender/
+This tool is use to decrypt file that been quarantined by Windows Defender. The tool developed in Rust. It also contains some Python code; as part of my blog - https://blog.khairulazam.net/2023/12/12/extracting-quarantine-files-from-windows-defender/
 
 How to Compile
 ===

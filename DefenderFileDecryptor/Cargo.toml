@@ -1,0 +1,16 @@
+[package]
+name = "defender_file_decryptor"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[package.metadata.winresource]
+FileDescription = "Defender File Decryptor"
+ProductName = "Windows Defender Quarantine File Decryptor"
+LegalCopyright = "Copyright © 2023 - Mohd Khairulazam"
+OriginalFilename = "defender_file_decryptor.exe"
+
+[build-dependencies]
+winresource = "0.1.17"
+
+[dependencies]

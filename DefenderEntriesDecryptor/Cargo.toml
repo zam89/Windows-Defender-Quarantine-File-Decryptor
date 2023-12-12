@@ -1,0 +1,22 @@
+[package]
+name = "defender_entries_decryptor"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[package.metadata.winresource]
+FileDescription = "Defender Entries Decryptor"
+ProductName = "Windows Defender Entries Decryptor"
+LegalCopyright = "Copyright © 2023 - Mohd Khairulazam"
+Language = "English"
+OriginalFilename = "defender_entries_decryptor.exe"
+
+[build-dependencies]
+winresource = "0.1.17"
+
+[dependencies]
+chrono = "0.4.31"
+hex = "0.4"
+byteorder = "1.5.0"
+time = "0.3.30"
+filetime = { version = "0.2.23", features = [] }
